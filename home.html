@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.in: Online Shopping India</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="header">
+        <div class="container">
+            <!-- Desktop Header -->
+            <div class="desktop-header">
+                <div class="logo-location">
+                    <a href="#" class="logo">
+                        <img src="images/amazon logo.webp" alt="Amazon.in">
+                    </a>
+                    <div class="location">
+                        <span class="location-label">Deliver to</span>
+                        <div class="location-value">
+                            <span>Bhopal 462016</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="search-bar">
+                    <div class="search-container">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" placeholder="Search products, brands and categories" class="search-input">
+                        <button class="search-button">Search</button>
+                    </div>
+                </div>
+                
+                <div class="nav-tools">
+                    <div class="language">
+                        <img src="images/india-flag-round-circle-icon.webp" alt="India" class="flag-icon">
+                        <span>EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    
+                    <div class="account">
+                        <span class="account-label">Hello, sign in</span>
+                        <div class="account-value">
+                            <span>Account & Lists</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="returns">
+                        <span class="returns-label">Returns</span>
+                        <div class="returns-value">
+                            <span>& Orders</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile Header -->
+            <div class="mobile-header">
+                <button class="menu-button" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <a href="#" class="mobile-logo">
+                    <img src="https://via.placeholder.com/80x24/FFFFFF/000000?text=Amazon.in" alt="Amazon.in">
+                </a>
+                
+                <div class="mobile-tools">
+                    <i class="fas fa-user"></i>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile Search -->
+            <div class="mobile-search">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="Search Amazon.in" class="search-input">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Category Navigation -->
+    <nav class="category-nav">
+        <div class="container">
+            <div class="desktop-categories">
+                <button class="all-button">
+                    <i class="fas fa-bars"></i>
+                    All
+                </button>
+                
+                <a href="#" class="category-link">Best Sellers</a>
+                <a href="#" class="category-link">Today's Deals</a>
+                <a href="#" class="category-link">Mobiles</a>
+                <a href="#" class="category-link">Electronics</a>
+                <a href="#" class="category-link">Prime</a>
+                <a href="#" class="category-link">Customer Service</a>
+                <a href="#" class="category-link">New Releases</a>
+                <a href="#" class="category-link">Home & Kitchen</a>
+                <a href="#" class="category-link">Fashion</a>
+                <a href="#" class="category-link">Books</a>
+            </div>
+            
+            <!-- Mobile Categories -->
+            <div class="mobile-categories">
+                <div class="tabs">
+                    <button class="tab active" data-tab="all">All</button>
+                    <button class="tab" data-tab="deals">Deals</button>
+                    <button class="tab" data-tab="mobiles">Mobiles</button>
+                    <button class="tab" data-tab="electronics">Electronics</button>
+                    <button class="tab" data-tab="fashion">Fashion</button>
+                    <button class="tab" data-tab="home">Home</button>
+                    <button class="tab" data-tab="prime">Prime</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Banner -->
+            <section class="hero-section">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="banner">
+                                <img 
+    src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&h=400&q=80" 
+    alt="Mega Home Sale" 
+    class="banner-img"
+/>
+                                <div class="banner-content">
+                                    <h2 class="banner-title">Mega Home Sale</h2>
+                                    <p class="banner-subtitle">Home winter ready</p>
+                                    <p class="banner-price">Starting ₹299</p>
+                                    <button class="shop-now-button">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner">
+                                <img 
+    src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1200&h=400&q=80" 
+    alt="Electronics Sale" 
+    class="banner-img"
+/>
+                                <div class="banner-content">
+                                    <h2 class="banner-title">Electronics Sale</h2>
+                                    <p class="banner-subtitle">Upgrade your tech</p>
+                                    <p class="banner-price">Up to 40% off</p>
+                                    <button class="shop-now-button">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </section>
+            
+            <!-- Featured Categories -->
+            <section class="categories-section">
+                <h2 class="section-title">Shop by Category</h2>
+                <div class="category-grid">
+    <div class="category-card">
+        <a href="#" class="category-item">
+            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300&h=300&q=80" alt="Electronics" class="category-img">
+            <h3 class="category-name">Electronics</h3>
+        </a>
+    </div>
+    <div class="category-card">
+        <a href="#" class="category-item">
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=300&h=300&q=80" alt="Home & Kitchen" class="category-img">
+            <h3 class="category-name">Home & Kitchen</h3>
+        </a>
+    </div>
+    <div class="category-card">
+        <a href="#" class="category-item">
+            <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=300&h=300&q=80" alt="Fashion" class="category-img">
+            <h3 class="category-name">Fashion</h3>
+        </a>
+    </div>
+    <div class="category-card">
+        <a href="#" class="category-item">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=300&q=80" alt="Beauty" class="category-img">
+            <h3 class="category-name">Beauty</h3>
+        </a>
+    </div>
+    <div class="category-card">
+        <a href="#" class="category-item">
+            <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=300&h=300&q=80" alt="Toys & Games" class="category-img">
+            <h3 class="category-name">Toys & Games</h3>
+        </a>
+    </div>
+    <div class="category-card">
+        <a href="#" class="category-item">
+            <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=300&h=300&q=80" alt="Books" class="category-img">
+            <h3 class="category-name">Books</h3>
+        </a>
+    </div>
+</div>
+            </section>
+            
+            <!-- Deals Section -->
+            <section class="deals-section">
+                <div class="section-header">
+                    <h2 class="section-title">Today's Deals</h2>
+                    <a href="#" class="see-all">
+                        See all deals
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-grid">
+    <div class="product-card">
+        <a href="#" class="product-item">
+            <div class="product-img-container">
+                <span class="discount-badge">60% off</span>
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&q=80" alt="Wireless Earbuds" class="product-img">
+            </div>
+            <h3 class="product-name">Wireless Earbuds Pro with Active Noise Cancellation</h3>
+            <div class="product-price">
+                <span class="current-price">₹999</span>
+                <span class="original-price">₹2,499</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="#" class="product-item">
+            <div class="product-img-container">
+                <span class="discount-badge">45% off</span>
+                <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300&h=300&q=80" alt="Smart Watch" class="product-img">
+            </div>
+            <h3 class="product-name">Smart Watch Series X with Heart Rate Monitor</h3>
+            <div class="product-price">
+                <span class="current-price">₹1,499</span>
+                <span class="original-price">₹2,999</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="#" class="product-item">
+            <div class="product-img-container">
+                <span class="discount-badge">50% off</span>
+                <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&h=300&q=80" alt="Bluetooth Speaker" class="product-img">
+            </div>
+            <h3 class="product-name">Portable Bluetooth Speaker with Bass Boost</h3>
+            <div class="product-price">
+                <span class="current-price">₹1,299</span>
+                <span class="original-price">₹2,599</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="#" class="product-item">
+            <div class="product-img-container">
+                <span class="discount-badge">35% off</span>
+                <img src="https://images.unsplash.com/photo-1609692814858-f7cd2f0afa4f?w=300&h=300&q=80" alt="Power Bank" class="product-img">
+            </div>
+            <h3 class="product-name">20000mAh Fast Charging Power Bank</h3>
+            <div class="product-price">
+                <span class="current-price">₹899</span>
+                <span class="original-price">₹1,399</span>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="#" class="product-item">
+            <div class="product-img-container">
+                <span class="discount-badge">40% off</span>
+                <img src="https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?w=300&h=300&q=80" alt="Fitness Band" class="product-img">
+            </div>
+            <h3 class="product-name">Smart Fitness Band with SpO2 Monitor</h3>
+            <div class="product-price">
+                <span class="current-price">₹1,199</span>
+                <span class="original-price">₹1,999</span>
+            </div>
+        </a>
+    </div>
+</div>
+            </section>
+            
+            <!-- Home Products Section -->
+            <section class="home-section">
+                <div class="section-header">
+                    <h2 class="section-title">Home & Kitchen Essentials</h2>
+                    <a href="#" class="see-all">
+                        See all
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <div class="home-grid">
+    <div class="home-card">
+        <a href="#" class="home-item">
+            <img src="https://images-cdn.ubuy.co.in/6682cdd988296a29a01ded8b-yclife-wall-mounted-air-conditioner.jpg" alt="Air Conditioners" class="home-img">
+            <h3 class="home-name">Air Conditioners</h3>
+        </a>
+    </div>
+    <div class="home-card">
+        <a href="#" class="home-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRulMCkvu9SXjaP6dJBDPiIVFZEeD2F7rIjQ&s" alt="Refrigerators" class="home-img">
+            <h3 class="home-name">Refrigerators</h3>
+        </a>
+    </div>
+    <div class="home-card">
+        <a href="#" class="home-item">
+            <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-52536,resizemode-75,msid-114128109/top-trending-products/kitchen-dining/microwave/best-large-capacity-microwave-ovens-top-models-for-cooking-baking-and-grilling.jpg" alt="Microwaves" class="home-img">
+            <h3 class="home-name">Microwaves</h3>
+        </a>
+    </div>
+    <div class="home-card">
+        <a href="#" class="home-item">
+            <img src="https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=300&h=300&q=80" alt="Washing Machines" class="home-img">
+            <h3 class="home-name">Washing Machines</h3>
+        </a>
+    </div>
+</div>
+            </section>
+            
+             <!-- Personalized Recommendations -->
+             <section class="recommendations-section">
+                <div class="section-header">
+                    <h2 class="section-title">Recommended for You</h2>
+                    <a href="#" class="see-all">
+                        See more
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <div class="recommendations-grid">
+                    <!-- Recommendation 1 -->
+                    <div class="recommendation-card">
+                        <a href="#" class="recommendation-item">
+                            <img src="https://iplanet.one/cdn/shop/files/iPhone_16_Teal_PDP_Image_Position_1__en-IN.jpg?v=1727248059&width=823" alt="Product 1" class="recommendation-img">
+                            <h3 class="recommendation-name">iPhone 16 256 GB Teal </h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(210)</span>
+                            </div>
+                            <div class="recommendation-price">₹84,900</div>
+                        </a>
+                    </div>
+                    
+                    <!-- Recommendation 2 -->
+                    <div class="recommendation-card">
+                        <a href="#" class="recommendation-item">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1728916305295" alt="Product 2" class="recommendation-img">
+                            <h3 class="recommendation-name">MacBook Pro M4</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(210)</span>
+                            </div>
+                            <div class="recommendation-price">₹319,900</div>
+                        </a>
+                    </div>
+                    
+                    <!-- Recommendation 3 -->
+                    <div class="recommendation-card">
+                        <a href="#" class="recommendation-item">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-2-hero-select-202409_FMT_WHH?wid=750&hei=556&fmt=jpeg&qlt=90&.v=1724041668836" alt="Product 3" class="recommendation-img">
+                            <h3 class="recommendation-name">AirPods Pro 2</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(210)</span>
+                            </div>
+                            <div class="recommendation-price">₹24,900</div>
+                        </a>
+                    </div>
+                    
+                    <!-- Recommendation 4 -->
+                    <div class="recommendation-card">
+                        <a href="#" class="recommendation-item">
+                            <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYJ33ref_VW_34FR+watch-case-40-aluminum-starlight-nc-se_VW_34FR+watch-face-40-aluminum-starlight-se_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=L1VPMlk5ZkpkOVFZR3Fud25vckh4RStGZUJWLzNFUFVydllxZFp0d1M4NktoaXQwYi9wRGFOV2FsZVA1S1dYc3U0MnNvUmFpbmpuWFJpcHZlcmRSWXdScEJ3QjIyVnl6dGRLV0ozWGQvU3RmSGlnNkpTM1NGVHN6YWcySEw0THd4cVNUNDJadDNVSmRncE9SalAvZ24zZmdHMUt6VFlqa3BpV2VBOUNycGdrcDIxSk5peW5HTWQ0c004MmJwMkNtdGl6SHg4ZE5NYmlWSVQ5akRTdGpCYXdFcFI4ZnVKTUUyODRESjZvdEp1NA" alt="Product 4" class="recommendation-img">
+                            <h3 class="recommendation-name">Apple Watch SE</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(210)</span>
+                            </div>
+                            <div class="recommendation-price">₹24,900</div>
+                        </a>
+                    </div>
+                    
+                    <!-- Recommendation 5 -->
+                    <div class="recommendation-card">
+                        <a href="#" class="recommendation-item">
+                            <img src="https://www.apple.com/newsroom/images/product/imac/standard/Apple_imac-magickeyboardnum-magicmouse2-macos-wallpaper_08042020.jpg.og.jpg?202501150501" alt="Product 5" class="recommendation-img">
+                            <h3 class="recommendation-name">iMac</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(210)</span>
+                            </div>
+                            <div class="recommendation-price">₹174,900</div>
+                        </a>
+                    </div>
+                    
+                    <!-- Recommendation 6 -->
+                    <div class="recommendation-card">
+                        <a href="#" class="recommendation-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqKWKG9EOkXXY5EJcZInaVWQLiNMFVH6VF_w&s" alt="Product 6" class="recommendation-img">
+                            <h3 class="recommendation-name">Apple Mac Studio</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(210)</span>
+                            </div>
+                            <div class="recommendation-price">₹60,000</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Sign In Section -->
+            <section class="signin-section">
+                <div class="signin-card">
+                    <h2 class="signin-title">Sign in for your best experience</h2>
+                    <button class="signin-button">Sign in securely</button>
+                    <a href="#" class="new-customer">New customer? Start here</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Get to Know Us</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Releases</a></li>
+                        <li><a href="#">Amazon Science</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Connect with Us</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Make Money with Us</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Sell on Amazon</a></li>
+                        <li><a href="#">Sell under Amazon Accelerator</a></li>
+                        <li><a href="#">Amazon Global Selling</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                        <li><a href="#">Fulfilment by Amazon</a></li>
+                        <li><a href="#">Advertise Your Products</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Let Us Help You</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">COVID-19 and Amazon</a></li>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Returns Centre</a></li>
+                        <li><a href="#">100% Purchase Protection</a></li>
+                        <li><a href="#">Amazon App Download</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <img src="images/amazon logo.webp" alt="Amazon.in" class="footer-logo">
+                <p class="copyright">© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-header">
+                <div class="mobile-user">
+                    <div class="mobile-avatar">
+                        <img src="https://via.placeholder.com/32x32" alt="User" class="avatar-img">
+                    </div>
+                    <div class="mobile-user-text">Hello, Sign In</div>
+                </div>
+                <button class="mobile-menu-close" id="menu-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="mobile-menu-content">
+                <div class="mobile-menu-section">
+                    <h3 class="mobile-menu-title">Shop By Department</h3>
+                    <ul class="mobile-menu-list">
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">
+                                <span>Electronics</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">
+                                <span>Computers</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">
+                                <span>Home & Kitchen</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">
+                                <span>Fashion</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">
+                                <span>Beauty</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">
+                                <span>Books</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">
+                                <span>Toys & Games</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="mobile-menu-section">
+                    <h3 class="mobile-menu-title">Help & Settings</h3>
+                    <ul class="mobile-menu-list">
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">Your Account</a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">Customer Service</a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a href="#" class="mobile-menu-link">Sign Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
